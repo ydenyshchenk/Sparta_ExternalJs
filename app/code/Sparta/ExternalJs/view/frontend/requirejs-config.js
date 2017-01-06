@@ -6,8 +6,8 @@
 var config = {
     map: {
         '*': {
-            // requireExternalJs: 'Sparta_ExternalJs/js/external',
-            requireExternalJs: 'http://web2.sparta.corp.magento.com/dev/ydenyshchenk/external.js',
+            // requireExternalJs: 'Sparta_ExternalJs/js/external', // local storage
+            requireExternalJs: 'http://web2.sparta.corp.magento.com/dev/ydenyshchenk/external.js', // external storage
         }
     }
 };
