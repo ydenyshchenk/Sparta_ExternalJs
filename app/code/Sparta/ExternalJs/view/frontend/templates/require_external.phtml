@@ -1,0 +1,14 @@
+<?php
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+?>
+<?php /** @var \Sparta\ExternalJs\Block\RequireExternal $block */ ?>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "requireExternalJs": <?php /* @escapeNotVerified */ echo $block->getScriptOptions(); ?>
+        }
+    }
+</script>
